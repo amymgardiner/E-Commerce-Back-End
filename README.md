@@ -25,3 +25,29 @@ When you open API GET routes in Insomnia for categories, products, or tags, then
 Also, when you test API POST, PUT, and DELETE routes in Insomnia, then you will be able to successfully create, update, and delete data in my database.
 
 ## How to use
+
+You will first need to download [Node.js](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs) and [MySQL](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide).
+
+Next you will need to clone my [GitHub Repository](https://github.com/amymgardiner/Employee-Tracker).
+
+Once you're in the file relating to my code, in your command line you will enter:
+
+npm install
+
+which installs the dependencies to the local node_modules folder. By default, npm install will install all modules listed as dependencies in package.json.
+
+Next, you'll want to enter in your MySQL username and your MySQL password in the fields I have listed in index.js.
+
+To fill in the database with the seeds, enter the command:
+
+npm run seed
+
+Finally, you can begin testing the API routes by invoking the following command:
+
+npm start
+
+and then opening [Insomnia](https://insomnia.rest/download).
+
+## Example
+
+There is an example video in the assets folder to view how I used Insomnia to test this app.
